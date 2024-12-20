@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% block equipements %}
+
+{% load static %}
+
+<div class="container">
+  <div class="page-inner">
+    <div class="page-header">
+      <h3 class="fw-bold mb-3">equipements</h3>
+      <ul class="breadcrumbs mb-3">
+        <li class="nav-home">
+          <a href="#">
+            <i class="icon-home"></i>
+          </a>
+        </li>
+        <li class="separator">
+          <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+          <a href="#">Base</a>
+        </li>
+        <li class="separator">
+          <i class="icon-arrow-right"></i>
+        </li>
+        <li class="nav-item">
+          <a href="#">equipements</a>
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title">Button Original</h4>
+          </div>
+          <div class="card-body">
+            <p class="demo">
+              <button class="btn btn-black">Default</button>
+
+              <button class="btn btn-primary">Primary</button>
+
+              <button class="btn btn-secondary">Secondary</button>
+
+              <button class="btn btn-info">Info</button>
+
+              <button class="btn btn-success">Success</button>
+
+              <button class="btn btn-warning">Warning</button>
+
+              <button class="btn btn-danger">Danger</button>
+
+              <button class="btn btn-link">Link</button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            <h4 class="card-title">Button with Label</h4>
+          </div>
+          <div class="card-body">
+            <p class="demo">
+              <button class="btn btn-black">
+                <span class="btn-label">
+                  <i class="fa fa-archive"></i>
+                </span>
+                Default
+              </button>
+
+              <button class="btn btn-primary">
+                <span class="btn-label">
+                  <i class="fa fa-bookmark"></i>
+                </span>
+                Primary
+              </button>
+
+              <button class="btn btn-secondary">
+                <span class="btn-label">
+                  <i class="fa fa-plus"></i>
+                </span>
+                Secondary
+              </button>
+
+              <button class="btn btn-info">
+                <span class="btn-label">
+                  <i class="fa fa-info"></i>
+                </span>
+                Info
+              </button>
+
+              <button class="btn btn-success">
+                <span class="btn-label">
+                  <i class="fa fa-check"></i>
+                </span>
+                Success
+              </button>
+
+              <button class="btn btn-warning">
+                <span class="btn-label">
+                  <i class="fa fa-exclamation-circle"></i>
+                </span>
+                Warning
+              </button>
+
+              <button class="btn btn-danger">
+                <span class="btn-label">
+                  <i class="fa fa-heart"></i>
+                </span>
+                Danger
+              </button>
+
+              <button class="btn btn-link">
+                <span class="btn-label">
+                  <i class="fa fa-link"></i>
+                </span>
+                Link
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock %}
